@@ -12,4 +12,4 @@ RUN /bin/mkdir -p /etc/qemu
 COPY qemu-ga.conf /etc/qemu/
 COPY service.template tmpfiles.template config.json.template /exports/
 
-CMD /bin/bash /usr/bin/qemu-ga
+CMD /usr/bin/qemu-ga
